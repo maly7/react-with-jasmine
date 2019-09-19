@@ -1,0 +1,53 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "private": true,
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "dependencies": {
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.5",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env NODE_ENV=test jasmine",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/register": "^7.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^9.0.1",
+    "cross-env": "^6.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "ignore-styles": "^5.0.1",
+    "jasmine": "^3.4.0",
+    "jasmine-enzyme": "^7.1.1",
+    "jsdom": "^15.1.1"
+  }
+}
