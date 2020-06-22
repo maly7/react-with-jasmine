@@ -39,7 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/register": "^7.10.1",
+    "@babel/register": "^7.10.3",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^9.1.2",
     "cross-env": "^7.0.2",
